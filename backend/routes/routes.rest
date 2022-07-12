@@ -1,7 +1,20 @@
 
 
-POST  http://localhost:5000/api/goals/
+POST http://localhost:5000/api/goals/
+Content-Type: application/json
 
+{
+    "text": "Thifgndf Goal"
+}
+
+###
+
+GET  http://localhost:5000/api/goals/
+
+
+###
+
+DELETE http://localhost:5000/api/goals/62cce1dd2d19c18a882f504a
 
 
 
